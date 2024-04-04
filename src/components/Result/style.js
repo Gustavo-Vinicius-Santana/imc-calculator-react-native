@@ -19,7 +19,21 @@ const styles = StyleSheet.create({
         fontSize: 18,
         color: "#ff0033",
         fontWeight: "bold"
-    },
+    },boxShareButton:{
+        width:"100%",
+        alignItems: "center",
+        marginBottom: 10,
+    },shareBtn:{
+        backgroundColor:"#1817f2",
+        borderRadius:50,
+        paddingBottom: 5,
+        paddingTop:5,
+
+    },textShare:{
+        color: "#ffffff",
+        fontWeight:"bold",
+        paddingHorizontal: 30,
+    }
 })
 
 export default styles

@@ -46,6 +46,11 @@ const styles = StyleSheet.create({
         fontSize: 20,
         color:"#ffffff",
 
+    },errorMensage:{
+        fontSize:12,
+        color: "red",
+        fontWeight:"bold",
+        paddingLeft:20,
     },
 })
 
