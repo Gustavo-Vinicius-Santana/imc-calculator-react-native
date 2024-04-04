@@ -1,5 +1,5 @@
 import react, { useState } from "react";
-import { View, Text, TextInput, TouchableOpacity, Vibration } from "react-native";
+import { View, Text, TextInput, TouchableOpacity, Vibration, Pressable, Keyboard } from "react-native";
 
 import Result from "../Result";
 import styles from "./style";
@@ -15,7 +15,9 @@ export default function Form() {
     const [errorMensage, setErrorMensage] = useState(null)
 
     function calculoImc(){
-        return setImc((weigth/(heigth*heigth)).toFixed(2))
+        let heightFormat = heigth.replace(",",".")
+        let weigthFormat = weigth.replace(",",".")
+        return setImc((weigthFormat/(heightFormat*heightFormat)).toFixed(2))
     }
 
     function verificationImc(){
@@ -42,7 +44,7 @@ export default function Form() {
     }
 
     return(
-        <View style={styles.formContext}>
+        <Pressable onPress={Keyboard.dismiss} style={styles.formContext}>
             <View style={styles.form}>
                 <Text style={styles.formLabel}>ALTURA</Text>
                 <Text style={styles.errorMensage}>{errorMensage}</Text>
@@ -59,6 +61,6 @@ export default function Form() {
             </View>
 
             <Result MensageImc={mensagem} ResultImc={imc}/>
-        </View>
+        </Pressable>
     )
 }
