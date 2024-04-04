@@ -34,7 +34,7 @@ export default function Form() {
     return(
         <View style={styles.formContext}>
             <View style={styles.form}>
-                <Text style={styles.formLabel}>ATURA</Text>
+                <Text style={styles.formLabel}>ALTURA</Text>
                 <TextInput style={styles.input} onChangeText={setHight} value={heigth} placeholder="EX.: 1.75" keyboardType="numeric"></TextInput>
 
                 <Text style={styles.formLabel}>PESO</Text>
