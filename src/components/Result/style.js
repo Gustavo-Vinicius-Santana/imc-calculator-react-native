@@ -2,13 +2,11 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     resultImc:{
-        flex:1,
         marginTop: 1,
         paddingTop:4,
         borderRadius: 50,
         alignItems:"center",
         width: "100%",
-
     },
     numberImc: {
         fontSize: 48,
