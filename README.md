@@ -10,21 +10,21 @@ Este é um projeto em React Native, desenvolvido utilizando Expo, que permite ca
    ```
 
 2. **Instale as dependências**
-  Certifique-se de ter o Expo CLI instalado. Se não tiver, instale com o comando:
+     Certifique-se de ter o Expo CLI instalado. Se não tiver, instale com o comando:
 
-  ```bash
-  npm install -g expo-cli
-  ```
-  Em seguida, instale as dependências do projeto:
-  ```bash
-  npm install
-  ```
+     ```bash
+     npm install -g expo-cli
+     ```
+     Em seguida, instale as dependências do projeto:
+     ```bash
+     npm install
+     ```
 
 3. **Execute o Projeto**
-  ```bash
-  expo start
-  ```
-  Isso abrirá o Expo Developer Tools no seu navegador. A partir daí, você pode executar o aplicativo no emulador ou no seu dispositivo físico usando o aplicativo Expo Go.
+     ```bash
+     expo start
+     ```
+     Isso abrirá o Expo Developer Tools no seu navegador. A partir daí, você pode executar o aplicativo no emulador ou no seu dispositivo físico usando o aplicativo Expo Go.
 
 ## Como Usar
 1. Insira seu peso (em quilogramas) e altura (em metros) nos campos fornecidos.
