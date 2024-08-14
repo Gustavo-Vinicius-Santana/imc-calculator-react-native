@@ -5,8 +5,8 @@ Este é um projeto em React Native, desenvolvido utilizando Expo, que permite ca
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/imc-calculator-app.git
-   cd imc-calculator-app
+   git clone https://github.com/Gustavo-Vinicius-Santana/imc-calculator-react-native
+   cd imc-calculator-react-native
    ```
 
 2. **Instale as dependências**
